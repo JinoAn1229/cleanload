@@ -1,0 +1,190 @@
+
+memberList_title = 회원관리
+
+pushHistory_title = 알람이력보기
+
+pushSend_title = 알람보내기
+
+sensorManagement_title = 센서관리
+
+cameraManagement_title = 카메라관리
+
+AS_title = 고객관리
+
+csCenter_title = 고객센터
+
+SensorStRecord_title = 센서상태
+
+search_text_Detail = 상세조회
+
+search_menu_name = 이름
+
+search_menu_ID = 아이디
+
+search_menu_addr = 주소
+
+search_menu_semsorID = 센서ID
+
+search_menu_gateID = 게이트ID
+
+search_menu_cameraID = 카메라ID
+
+search_text_date = 등록일 조회
+
+search_date_today = 오늘
+
+search_date_3day = 3일
+
+search_date_7day = 7일
+
+search_date_30day = 1개월
+
+search_date_60day = 2개월
+
+search_date_90day = 3개월
+
+search_btn_text = 조회
+
+search_check_text_and = 조회기간AND조회
+
+search_text_count = 건 조회되었습니다.
+
+search_text_view_count_10 = 10건씩보기
+
+search_text_view_count_20 = 10건씩보기
+
+excle_save_text = 엑셀
+
+table_header_NO = 번호
+
+table_header_name = 이름
+
+table_header_ID = 아이디(이메일)
+
+table_header_birth = 생년월일
+
+table_header_Sex = 남/여
+
+table_header_reg_date = 등록일
+
+table_header_setup_date = 설치일
+
+table_header_addr = 주소
+
+table_header_InitUserDevice = 장비초기화
+
+table_btn_InitUserDevice = 초기화
+
+table_header_dev_info = 핸드폰 종류
+
+table_header_DelUser = 유저 삭제
+
+table_btn_DelUser = 삭제
+
+table_header_send_date = 발송일시
+
+table_header_msg = 메세지
+
+table_header_sensorID = 센서ID
+
+table_header_gateID = 게이트 ID
+
+table_header_sensor_name = 센서명
+
+table_header_sensor_del = 센서삭제
+
+table_btn_sensor_del = 센서삭제
+
+table_header_camera_name = 카메라명
+
+table_header_camera_ID = 카메라ID
+
+table_header_camera_del = 카메라삭제
+
+table_btn_camera_del = 삭제
+
+table_header_write_date = 작성일
+
+table_header_title = 제목
+
+table_header_resp = 답변
+
+table_header_use = 용도
+
+table_header_date = 날짜
+
+table_header_sensor_state = 센서상태
+
+table_header_battery = 베터리
+
+table_header_action = 센서동작
+
+table_header_exp = 확장필드
+
+table_body_man = 남
+
+table_body_woman = 여
+
+table_body_resp_ok = 답변완료
+
+table_body_resp_no = 준비중
+
+pushsend_text_user_selete = 명이 선택되었습니다.
+
+pushsend_btn_list_del = 목록지우기
+
+pushsend_text_send_msg = 내용입력
+
+pushsend_btn_send_msg = 메세지보내기
+
+asview_title = 고객관리상세
+
+asview_text_basic_info = 기본정보
+
+asview_text_name = 이름
+
+asview_text_ID = 아이디
+
+asview_text_birth = 생년월일
+
+asview_text_sex = 성별
+
+asview_text_reg_date = 등록일
+
+asview_text_addr = 주소
+
+asview_text_sensorID = 센서ID
+
+asview_text_gateID = 게이트ID
+
+asview_text_cameraID = 카메라ID
+
+asview_text_management = 관리내용
+
+asview_text_date = 날짜
+
+asview_text_msg = 내용
+
+asview_btn_mod = 수정
+
+asview_text_input = 내용입력
+
+asview_btn_list = 목록
+
+asview_btn_save = 저장
+
+popup_text_title = 상세내용
+
+popup_text_name = 이름
+
+popup_text_ID = 아이디
+
+popup_text_write_date = 작성일
+
+popup_text_title = 제목
+
+popup_text_msg = 내용
+
+popup_text_resp = 답변
+
+popup_text_manager = 관리자

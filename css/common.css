@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html,body {height:100%;}
+body {font-family: 'Noto Sans KR', sans-serif;font-weight:300;font-size:13px;}
+
+h1,h2,h3,h4,h5 {font-weight:300;font-size:13px;}
+button.blue {background:url('../images/list/bg_btn_blue.png') 0 0 repeat;border:1px solid #0075aa;}
+button.gray {background:url('../images/list/bg_btn_gray.png') 0 0 repeat;border:1px solid #aaa;}
+button.orange {background:url('../images/view/bg_btn_orange.png') 0 0 repeat;border:1px solid #c96e02;}
+button.green {background:url('../images/view/bg_btn_green.png') 0 0 repeat;border:1px solid #319b02;}
+button.btn-list {display:block;min-width:70px;height:28px;line-height:25px;border-radius:5px;text-align:center;font-size:13px;}
+select {background:url('../images/list/select_arrow.png') 90% center no-repeat;width:108px;margin-right:10px;}
+select, input[type='text'] {border:1px solid #d6d6d6;height:28px;padding:0 5px;}
+
+.role-tbl {display:table;table-layout: fixed;width:100%;}
+
+#wrapper {height:100%;min-width:1400px;width:100%;}
+#wrapper * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+
+/*************
+**
+**
+** Layout
+**
+**************/
+
+header {height:100px;background:#999;color:#fff;padding-top:0px;text-align:center;font-weight:500;}
+
+#lnb {width:220px;position:absolute;top:0;left:0;bottom:0;background:#666;color:#fff;text-align:center;font-weight:500;}
+
+.content-wrap {position:relative;min-height:850px}
+#contents {padding-left:220px;}
+.container {padding:20px;}
+
+h3.tit-list {font-size:25px;font-weight:500;letter-spacing:-1px;margin-bottom:20px;padding-left:30px;background:url('../images/list/bull_title.png') 0 center no-repeat;}
+
+
+footer {height:50px;background:#b8d6f5;color:#000;text-align:center;padding-top:15px;font-weight:500;}
+
+
+/*************
+**
+**
+** DATEPICKER
+**
+**************/
+.ui-datepicker {padding:0;}
+.ui-widget-header {background:#444;}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {top:9px}
+.ui-datepicker .ui-datepicker-header {padding:10px 0}
+.ui-datepicker .ui-datepicker-title {color:#fff;font-size:13px;}
+.ui-datepicker .ui-datepicker-prev {background:url('../images/list/btn_cal_prev.png') center center no-repeat;}
+.ui-datepicker .ui-datepicker-next {background:url('../images/list/btn_cal_next.png') center center no-repeat;}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {border:none;text-align:center;font-size:12px}
+
+
+
+/*************
+**
+**
+** LEFT MEMU
+**
+**************/
+.lnbM ul li { width:100%; background:#FFF; height:50px; line-height:50px; color:#333333; border-bottom:#aaaaaa 1px solid; border-right:#aaaaaa 1px solid; vertical-align:middle; font-size:15px;}
+.lnbM a.navi_link{width:100%; height:100%; display:inline-block;} 
+.lnbM ul li:hover  {background:#dddddd; font-weight:bold;}
+
+
+.asDate {width:120px; text-align:left; margin-left:20px; background:none; float:left;}
+.asText {word-break:break-all;white-space:normal; background:none; width:700px; float:left;margin-left:20px; }
+.asliStyle ul li { width:100%; border-bottom:1px #CCCCCC solid; float:left; margin:10px 0 10px 0; ;}

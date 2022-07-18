@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CleanLoad</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <display-name>InitWebProject</display-name>
+    <servlet-name>InitWebProject</servlet-name>
+    <servlet-class>wguard.web.InitWebProject</servlet-class>
+
+	 <!--   oracle   
+    <init-param>
+      <description></description>
+      <param-name>jdbc_url</param-name>
+      <param-value>jdbc:oracle:thin:@127.0.0.1:1521:orcl</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>jdbc_id</param-name>
+      <param-value>xxx</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>jdbc_pw</param-name>
+      <param-value>xxx</param-value>
+    </init-param>
+       end of  oracle      -->
+     <!--   mssql
+   <init-param>
+      <description></description>
+      <param-name>jdbc_url</param-name>
+      <param-value>jdbc:sqlserver://127.0.0.1:1433;DatabaseName=BSFIRE</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>jdbc_id</param-name>
+      <param-value>bsdata</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>jdbc_pw</param-name>
+      <param-value>bs!DATA</param-value>
+    </init-param>
+   end of  mssql      -->
+
+   <init-param>
+      <description></description>
+      <param-name>jdbc_url</param-name>
+      <param-value>jdbc:mysql://localhost:3306/BSCLEAN?characterEncoding=UTF-8&amp;serverTimezone=Asia/Seoul</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>jdbc_id</param-name>
+      <param-value>bsdata</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>jdbc_pw</param-name>
+      <param-value>bs!DATA</param-value>
+    </init-param>
+
+     
+    <init-param>
+      <description></description>
+      <param-name>project_name</param-name>
+      <param-value>CleanLoad</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>project_root</param-name>
+      <param-value>/CleanLoad</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>project_home</param-name>
+      <param-value>http://192.168.0.179/CleanLoad</param-value>
+    </init-param>
+     <init-param>
+      <description></description>
+      <param-name>project_home_ssl</param-name>
+      <param-value>http://192.168.0.179/CleanLoad</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>project_path</param-name>
+      <param-value>C:/JavaWork/Blak/WGuardWeb/CleanLoad/WebContent</param-value>
+    </init-param>
+    <init-param>
+      <description></description>
+      <param-name>project_upfilepath</param-name>
+      <param-value>D:/SensorContent/upfile</param-value>
+    </init-param> 
+	<init-param>
+      <description></description>
+      <param-name>project_mmsvr_path</param-name>
+      <param-value>http://127.0.0.1:8051/mms</param-value>
+    </init-param>  
+    <init-param>
+      <description></description>
+      <param-name>project_user_server_path</param-name>
+      <param-value></param-value>
+    </init-param> 
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+</web-app>

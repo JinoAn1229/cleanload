@@ -1,0 +1,92 @@
+/*************
+**
+**
+** 조회영역
+**
+**************/
+
+.search-wrap ul {padding:5px 20px;border:1px solid #aaa;font-size:13px;}
+.search-wrap ul li {display:table;table-layout: fixed;width:100%;padding:5px 0;border-top:1px solid #ddd;}
+.search-wrap ul li:first-child {border-top:none;}
+.search-wrap ul li > div {display:table-cell;vertical-align:middle;}
+.search-wrap ul li > div.dist {width:95px;font-weight:500;padding-left:10px;background:url('../images/list/bull_dist.png') 0 center no-repeat;}
+.search-wrap ul li.period .dist-cont p {display:inline-block;}
+.search-wrap ul li.period .dist-cont p:first-child {margin-right:20px;}
+.search-wrap ul li.period input[type='text'].datepicker {width:120px;background:url('../images/list/icon_calendar.png') 95% center no-repeat;}
+.search-wrap ul li.period button {display:inline-block;width:70px;height:28px;line-height:25px;margin-left:-3px;color:#666;text-align:center;border:1px solid #aaa;}
+.search-wrap ul li.period button.on {background:#444;color:#fff;}
+.search-wrap .btn-search {margin:10px auto;color:#fff;}
+.search-wrap .btn-rowsearch {color:#fff;}
+
+
+/*************
+**
+**
+** 리스트 영역
+**
+**************/
+.list-wrap {position:relative;}
+.list-wrap .al-left {text-align:left;}
+.list-count em {color:#d30000;font-weight:500;}
+#sort-by-count {margin-left:10px;}
+
+.util-btn-wrap {position:absolute;top:0;right:0;}
+.util-btn-wrap button {display:inline-block;margin-left:10px;}
+.util-btn-wrap button.regist {color:#fff;}
+.util-btn-wrap button i {margin-left:3px;}
+.util-btn-wrap button.excel {background:#f4f4f4;color:#000;border:1px solid #aaa;}
+
+.list-wrap table {text-align:center;font-size:13px;width:100%;table-layout: fixed;}
+
+.list-wrap .tbl-head,
+.list-wrap .tbl-body {border-left:1px solid #aaa;border-right:1px solid #aaa;}
+.list-wrap .tbl-head {border-top:2px solid #008fd4;margin-top:10px;}
+.list-wrap .tbl-body {margin-bottom:10px;height:370px;}
+
+.list-wrap tr {border-bottom:1px solid #aaa;}
+.list-wrap tr:not(.nhov):hover {background:#f7f0e8;}
+.list-wrap th {background:#b8d6f5;padding:5px 10px;border-left:1px solid #aaa;}
+.list-wrap td:not(.npointer) {padding:5px 10px;border-left:1px solid #aaa;cursor:pointer;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.list-wrap th:first-child,
+.list-wrap td:first-child {border-left:none;}
+.list-wrap td a {display:inline-block;padding-right:15px;text-decoration: underline;color:#008fd4;background:url('../images/list/icon_list_link.png') right center no-repeat;}
+.list-wrap td a.shape-btn {margin:0 auto;height:25px;line-height:23px;background:#f4f4f4;border-radius:5px;border:1px solid #aaa;text-decoration: none;padding-right:5px;padding-left:5px;}
+
+
+/*************
+**
+**
+** 페이징
+**
+**************/
+
+.paging {text-align:center;font-size:13px;}
+.paging a {display:inline-block;width:30px;height:30px;line-height:28px;text-align:center;border:1px solid #ddd;border-left:none;margin-left:-3px;vertical-align: middle;}
+.paging a.on {background:#008fd4;color:#fff;}
+.paging a.pg-first {width:40px;border-left:1px solid #ddd;background:#f4f4f4 url('../images/list/pg_first.png') center center no-repeat;border-top-left-radius:5px;border-bottom-left-radius:5px;}
+.paging a.pg-prev {width:40px;background:#f4f4f4 url('../images/list/pg_prev.png') center center no-repeat;}
+.paging a.pg-next {width:40px;background:#f4f4f4 url('../images/list/pg_next.png') center center no-repeat;}
+.paging a.pg-last {width:40px;background:#f4f4f4 url('../images/list/pg_last.png') center center no-repeat;border-top-right-radius:5px;border-bottom-right-radius:5px;}
+
+
+
+/*************
+**
+**
+** Custom scrollbar
+**
+**************/
+.mCSB_inside>.mCSB_container {margin-right:0;}
+.mCSB_scrollTools {right:-7px;}
+
+
+
+/*************
+**
+**
+** etc
+**
+**************/
+.pcursor {cursor:pointer;}
+
+
